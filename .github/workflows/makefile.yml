@@ -43,7 +43,7 @@ jobs:
     - name: 下载内核源码
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace
-        git clone https://github.com/Pierre2324/NGK_android_kernel_xiaomi_sm8250.git t-caf --depth=1
+        git clone https://github.com/Pierre2324/NGK_android_kernel_xiaomi_sm8250.git android-kernel --depth=1
 
 
     - name: 开启lxc和docker配置
